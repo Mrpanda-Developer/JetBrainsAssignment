@@ -1,0 +1,10 @@
+^C:\USERS\FAZEV\DOCUMENTS\GITHUB\JETBRAINSASSIGNMENT\BUILD\CMAKEFILES\FE361A7EFF9761D7A8B0DDEBB34DE14B\GENERATE.STAMP.RULE
+setlocal
+C:\MinGW\bin\cmake.exe -SC:/Users/fazev/Documents/GitHub/JetBrainsAssignment -BC:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build/JetBrainsAssignment.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

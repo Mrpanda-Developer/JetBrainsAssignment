@@ -15,7 +15,7 @@ int main() {
     auto v = tree.get(B({1,2,3}));
     std::cout << "Value: " << (v.empty() ? -1 : (int)v[0]) << "\n";
 
-    // Threaded smoke test
+    
     std::thread writer([&](){
         for (int i = 0; i < 500; ++i)
             tree.put({(uint8_t)i}, {(uint8_t)(i*2)});

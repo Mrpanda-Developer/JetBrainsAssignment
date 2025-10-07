@@ -1,0 +1,4 @@
+C:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build/CMakeFiles/tree.dir
+C:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build/CMakeFiles/main_test.dir
+C:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/fazev/Documents/GitHub/JetBrainsAssignment/build/CMakeFiles/ZERO_CHECK.dir
