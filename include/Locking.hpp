@@ -3,6 +3,9 @@
 //Kinda funny since I just heard about Mutex and Futex in OS lectures :D
 //But I guess this is a good use case for it
 
+
+// this is a simple RAII-style wrapper for read and write locks using std::shared_mutex.
+// ReadLock acquires a shared (read) lock, allowing multiple readers.
 class ReadLock {
     std::shared_mutex& m_;
 public:

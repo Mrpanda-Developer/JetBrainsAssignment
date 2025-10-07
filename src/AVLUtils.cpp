@@ -49,3 +49,21 @@ void AVLUtils::rebalance(std::unique_ptr<Node>& n) {
         rotateLeft(n);
     }
 }
+/*
+How AVL tree works:
+An AVL tree is a self-balancing binary search tree where the difference in heights between the left and right subtrees (the balance factor) of any node is at most 1. This ensures that the tree remains approximately balanced, leading to O(log n) time complexity for insertion, deletion, and lookup operations.
+for a rigth rotation:
+//        n              L
+    //       /              / \
+    //      L      =>      Ll  n
+    //     / \                 /
+    //   Ll  Lr              Lr
+
+
+// for a left rotation:
+    //    n               R
+    //     \             / \
+    //      R   =>     n  Rr
+    //     / \         \
+    //   Rl  Rr       Rl
+*/

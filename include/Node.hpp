@@ -3,6 +3,10 @@
 #include <cstdint>
 #include <memory>
 
+
+// Node structure for the AVL tree
+// Each node contains a key-value pair, pointers to left and right children, and the height of the node for balancing purposes.
+
 struct Node {
     using Bytes = std::vector<std::uint8_t>;
 
